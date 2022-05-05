@@ -5,6 +5,6 @@ branches:
     - nano
 build: off
 install:
-  - java -jar ./artifacts/app-mbank.jar &
+  - java -jar src/test/java/artifacts/app-mbank.jar &
 build_script:
   - chmod +x gradlew
