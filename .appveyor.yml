@@ -8,3 +8,4 @@ install:
   - java -jar src/test/java/artifacts/app-mbank.jar &
 build_script:
   - chmod +x gradlew
+  - ./gradlew test --info
